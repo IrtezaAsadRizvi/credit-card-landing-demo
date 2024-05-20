@@ -1,0 +1,23 @@
+{
+  "name": "credit-card-landing-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss ./css/style.css -o ./css/styles.css"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrtezaAsadRizvi/credit-card-landing-demo.git"
+  },
+  "author": "Irteza Asad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrtezaAsadRizvi/credit-card-landing-demo/issues"
+  },
+  "homepage": "https://github.com/IrtezaAsadRizvi/credit-card-landing-demo#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "postcss-cli": "^11.0.0"
+  }
+}
