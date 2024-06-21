@@ -1,3 +1,15 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+  const preloader = document.querySelector('.preloader')
+  
+  setTimeout(function() {
+    preloader.classList.add('hidden')
+    setTimeout(function() {
+      preloader.style.display = 'none'
+    }, 500)
+  }, 1000)
+});
+
+
 gsap.timeline()
     .set('.logo',     { x:215, y:482 })
     .set('.chip',     { x:148, y:66 })
